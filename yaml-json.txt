@@ -1,0 +1,84 @@
+Yaml Coding:
+-----------------------------------------------------
+
+Name: Thomas
+Age: 35
+Occupation: Software Developer 
+Address:
+    - 114 South Buchanan
+    - Boulevard 
+	- Duke Box 90790 
+	- Duram, NC 27708
+	- Phone: 
+	    - 919 681-8472
+	- Fax:
+	    - 919 681-8492
+Hobbies: 
+	- Writing 
+	- Reading 
+	- Cycling
+Skills: 
+	- Programming 
+	    - Java
+	    - Python
+	- Database 
+	    - MySQL
+	    - Postgres
+	- Devops Tools
+	    - Configuration Managment
+	        - Ansible
+	        - Puppet
+	    - Git
+	    - Virtulization
+	        - Docker 
+	            - k8s
+	                - 50% covered 
+	            - swarm 
+              		- 90% covered 
+                    - CoreOS
+                - LXC
+IQ: 122.55
+Hike Eligible: True
+
+
+Json Coding;
+==============================================================
+
+{
+
+"Name": "Thomas",
+"Age": 35,
+"Occupation": "Software Developer",
+"Address": [114 "South Buchanan", "Boulevard", "Duke Box" 90790, "Duram", "NC" 27708, "Phone" 919 681-8472, "Fax" 919 681-8492],
+"Hobbies": ["Writing", "Reading", "Cycling"]
+
+"Skills": [
+	    {
+	"Programming": ["Java", "Python"],
+	"Database": ["MySQL", "Postgres"],
+	"Devops Tools": [
+		{
+		"Configuration Management": ["Ansible","Puppet"],
+                }       ]
+
+        "Git": null,
+        "Virtualization": [
+                   {
+            "Docker": [
+            		{
+
+            		"k8s": 50% "covered",
+            		"swarm": 90% "covered",
+            		"CoreOS": null,
+            		}
+                      ]
+            "LXC": null,
+          } ]
+   	}
+
+		  ]
+"IQ": 122.55
+"Hike Eligible": True
+
+}
+
